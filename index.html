@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ground Zero Vape Shop — Old Albay District, Legazpi City</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@500;600;700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- AGE GATE -->
+    <div class="age-gate" id="ageGate">
+      <div class="glass-card age-gate__card">
+        <div class="age-gate__badge">
+          <img
+            class="age-gate__badge-img"
+            src="logo.jpg"
+            alt="Ground Zero Vape Shop logo"
+          />
+          <span class="age-gate__badge-pill">18+</span>
+        </div>
+        <h2 class="age-gate__title">Confirm your age</h2>
+        <p class="age-gate__text">
+          Ground Zero sells vapor products for existing adult smokers. You must
+          be of legal smoking age in your area to enter.
+        </p>
+        <div class="age-gate__actions">
+          <button class="btn btn--glass" id="ageGateDecline">
+            I'm under age
+          </button>
+          <button class="btn btn--primary" id="ageGateConfirm">
+            I'm of legal age
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__blob atmosphere__blob--a"></div>
+      <div class="atmosphere__blob atmosphere__blob--b"></div>
+      <div class="atmosphere__blob atmosphere__blob--c"></div>
+    </div>
+
+    <!-- NAV -->
+    <header class="nav">
+      <div class="nav__inner">
+        <a href="#home" class="nav__brand">
+          <img
+            class="nav__brand-logo"
+            src="logo.jpg"
+            alt="Ground Zero Vape Shop logo"
+          />
+          <span class="nav__brand-text">
+            <span class="nav__brand-mark">Ground<span>Zero</span></span>
+            <span class="nav__brand-sub">Vapor Shop · Old Albay District</span>
+          </span>
+        </a>
+        <nav class="nav__links" aria-label="Primary">
+          <a class="nav__link" href="#about">Overview</a>
+          <a class="nav__link" href="#hours">Hours</a>
+          <a class="nav__link" href="#reviews">Reviews</a>
+          <a class="nav__link" href="#visit">Visit</a>
+        </nav>
+        <div class="nav__status">
+          <span class="nav__status-dot"></span>
+          Open · Closes 9 PM
+        </div>
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Switch to light mode"
+        >
+          🌙
+        </button>
+        <button class="nav__menu-btn" aria-label="Menu">☰</button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__rings" aria-hidden="true">
+        <div class="hero__ring hero__ring--1"></div>
+        <div class="hero__ring hero__ring--2"></div>
+        <div class="hero__ring hero__ring--3"></div>
+        <div class="hero__ring hero__ring--4"></div>
+        <div class="hero__core"></div>
+      </div>
+      <div class="hero__content">
+        <img
+          class="hero__logo"
+          src="logo.jpg"
+          alt="Ground Zero Vape Shop logo"
+        />
+        <span class="u-eyebrow hero__eyebrow"
+          >Vaporizer Store — Legazpi City</span
+        >
+        <h1 class="hero__title">Ground<br /><span>Zero</span></h1>
+        <p class="hero__sub">
+          The vapor headquarters of Old Albay District. Real stock, straight
+          answers, no pressure — just walk in and ask.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="tel:+639177003931"
+            >Call 0917 700 3931</a
+          >
+          <a
+            class="btn btn--glass"
+            href="https://www.google.com/maps/dir/?api=1&destination=Ground+Zero+Vape+Shop+Albay,Balintawak+St,Old+Albay+District,Legazpi+City,Albay"
+            target="_blank"
+            rel="noopener"
+            >Get Directions</a
+          >
+        </div>
+        <div class="hero__meta">
+          <span><b>5.0</b> ★ rating</span>
+          <span class="hero__meta-dot"></span>
+          <span><b>4</b> reviews</span>
+          <span class="hero__meta-dot"></span>
+          <span>Balintawak St, Legazpi City</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="u-container">
+        <div class="section__head">
+          <span class="u-eyebrow">Overview</span>
+          <h2 class="section__title">Ground zero for the local vape scene</h2>
+        </div>
+        <div class="about">
+          <div class="about__copy glass-card" style="padding: 34px">
+            <p>
+              Ground Zero Vape Shop sits on Balintawak St. in Old Albay
+              District, a short ride from anywhere in Legazpi City. It's a
+              walk-in vaporizer store built for people switching from cigarettes
+              and for vapers who already know what they want off the shelf.
+            </p>
+            <p>
+              Stock rotates around what the neighborhood actually asks for — pod
+              systems, mods, and coils — with staff who'll tell you straight
+              whether something's in or out, no upselling required.
+            </p>
+            <div class="about__tags">
+              <span class="tag">Pod Systems</span>
+              <span class="tag">Mods &amp; Coils</span>
+              <span class="tag">E-Liquids</span>
+              <span class="tag">Walk-ins Welcome</span>
+            </div>
+          </div>
+
+          <div class="terminal glass-card">
+            <div class="terminal__row">
+              <span class="terminal__label">Status</span>
+              <span class="terminal__value terminal__value--accent"
+                >Open · Closes 9 PM</span
+              >
+            </div>
+            <div class="terminal__row">
+              <span class="terminal__label">Category</span>
+              <span class="terminal__value">Vaporizer Store</span>
+            </div>
+            <div class="terminal__row">
+              <span class="terminal__label">Rating</span>
+              <span class="terminal__value">5.0 ★ (4 reviews)</span>
+            </div>
+            <div class="terminal__row">
+              <span class="terminal__label">Plus Code</span>
+              <span class="terminal__value">4PRM+5W Legazpi City</span>
+            </div>
+
+            <div class="hours">
+              <div class="hours__row">
+                <span class="hours__day">Monday</span
+                ><span class="hours__time">9 AM – 9 PM</span>
+              </div>
+              <div class="hours__row">
+                <span class="hours__day">Tuesday</span
+                ><span class="hours__time">9 AM – 9 PM</span>
+              </div>
+              <div class="hours__row">
+                <span class="hours__day">Wednesday</span
+                ><span class="hours__time">9 AM – 9 PM</span>
+              </div>
+              <div class="hours__row">
+                <span class="hours__day">Thursday</span
+                ><span class="hours__time">9 AM – 9 PM</span>
+              </div>
+              <div class="hours__row">
+                <span class="hours__day">Friday</span
+                ><span class="hours__time">9 AM – 9 PM</span>
+              </div>
+              <div class="hours__row">
+                <span class="hours__day">Saturday</span
+                ><span class="hours__time">9 AM – 9 PM</span>
+              </div>
+              <div class="hours__row">
+                <span class="hours__day hours__day--today">Sunday</span
+                ><span class="hours__time hours__time--today">9 AM – 9 PM</span>
+              </div>
+            </div>
+
+            <div class="terminal__cta">
+              <a class="btn btn--primary" href="tel:+639177003931">Call Shop</a>
+              <a
+                class="btn btn--glass"
+                href="https://www.google.com/maps/dir/?api=1&destination=Ground+Zero+Vape+Shop+Albay,Balintawak+St,Old+Albay+District,Legazpi+City,Albay"
+                target="_blank"
+                rel="noopener"
+                >Directions</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULAR TIMES -->
+    <section class="section" id="hours">
+      <div class="u-container">
+        <div class="section__head">
+          <span class="u-eyebrow">Foot Traffic</span>
+          <h2 class="section__title">Popular times — Sunday</h2>
+        </div>
+        <div class="chart-card glass-card">
+          <div class="chart-card__top">
+            <span class="terminal__label">Busy-ness by hour</span>
+            <span class="terminal__label">Peak ≈ 3–6 PM</span>
+          </div>
+          <div class="chart" id="chart">
+            <div
+              class="chart__bar"
+              style="height: 5%; animation-delay: 0s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 5%; animation-delay: 0s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 45%; animation-delay: 0.05s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 55%; animation-delay: 0.1s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 60%; animation-delay: 0.15s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 45%; animation-delay: 0.2s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 50%; animation-delay: 0.25s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 60%; animation-delay: 0.3s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 88%; animation-delay: 0.35s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 70%; animation-delay: 0.4s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 60%; animation-delay: 0.45s"
+            ></div>
+            <div
+              class="chart__bar"
+              style="height: 50%; animation-delay: 0.5s"
+            ></div>
+          </div>
+          <div class="chart__labels">
+            <span>6a</span><span>9a</span><span>12a</span><span>3p</span
+            ><span>6p</span><span>9p</span>
+          </div>
+          <p class="chart-card__note">
+            Illustrative traffic shape for a typical Sunday — swap in live
+            values from your Google Business data once connected.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section" id="reviews">
+      <div class="u-container">
+        <div class="section__head">
+          <span class="u-eyebrow">From the neighborhood</span>
+          <h2 class="section__title">What customers say</h2>
+        </div>
+
+        <div class="reviews__summary glass-card" style="padding: 30px 34px">
+          <div class="reviews__score-wrap">
+            <div class="reviews__score">5.0</div>
+            <div class="reviews__stars">★★★★★</div>
+            <div class="reviews__count">4 REVIEWS</div>
+          </div>
+          <div class="reviews__breakdown">
+            <div class="breakdown__row">
+              <span>5★</span>
+              <div class="breakdown__bar">
+                <div class="breakdown__fill" style="width: 100%"></div>
+              </div>
+              <span>4</span>
+            </div>
+            <div class="breakdown__row">
+              <span>4★</span>
+              <div class="breakdown__bar">
+                <div class="breakdown__fill" style="width: 0%"></div>
+              </div>
+              <span>0</span>
+            </div>
+            <div class="breakdown__row">
+              <span>3★</span>
+              <div class="breakdown__bar">
+                <div class="breakdown__fill" style="width: 0%"></div>
+              </div>
+              <span>0</span>
+            </div>
+            <div class="breakdown__row">
+              <span>2★</span>
+              <div class="breakdown__bar">
+                <div class="breakdown__fill" style="width: 0%"></div>
+              </div>
+              <span>0</span>
+            </div>
+            <div class="breakdown__row">
+              <span>1★</span>
+              <div class="breakdown__bar">
+                <div class="breakdown__fill" style="width: 0%"></div>
+              </div>
+              <span>0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-grid">
+          <article class="review-card glass-card">
+            <div class="review-card__head">
+              <div class="review-card__avatar">BL</div>
+              <div>
+                <div class="review-card__name">Bejay Lita</div>
+                <div class="review-card__meta">1 review · 2 years ago</div>
+              </div>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__body">"Goods"</p>
+            <div class="review-card__reply">
+              <b>Response from owner · 7 months ago</b>
+              Hi Bejay! thanks for the review
+            </div>
+          </article>
+
+          <article class="review-card glass-card">
+            <div class="review-card__head">
+              <div class="review-card__avatar">JL</div>
+              <div>
+                <div class="review-card__name">Jefferson Laboguin</div>
+                <div class="review-card__meta">1 review · 8 months ago</div>
+              </div>
+            </div>
+            <span class="review-card__tag">Translated from Filipino</span>
+            <p class="review-card__body">
+              "Good morning sir & madam, I just want to ask if you still have
+              any complaints about vape?"
+            </p>
+            <div class="review-card__reply">
+              <b>Response from owner · 7 months ago</b>
+              Yes, we do have varieties of compliant vape products, please visit
+              us.
+            </div>
+          </article>
+
+          <article class="review-card glass-card">
+            <div class="review-card__head">
+              <div class="review-card__avatar">KM</div>
+              <div>
+                <div class="review-card__name">Kalbo Mata</div>
+                <div class="review-card__meta">1 review · 2 months ago</div>
+              </div>
+            </div>
+            <span class="review-card__tag">Translated from Ilocano</span>
+            <p class="review-card__body">
+              "Boss, just asking if there is OXVA Xlim Pro available?"
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="section" id="visit">
+      <div class="u-container">
+        <div class="section__head">
+          <span class="u-eyebrow">Find us</span>
+          <h2 class="section__title">Visit ground zero</h2>
+        </div>
+        <div class="visit">
+          <div class="map-frame glass-card">
+            <div class="map-frame__grid" aria-hidden="true"></div>
+            <div class="map-frame__pin">
+              <span class="map-frame__pin-dot"></span>
+              <span class="map-frame__pin-label"
+                >Balintawak St, Old Albay District,<br />Legazpi City, 4500
+                Albay</span
+              >
+            </div>
+          </div>
+
+          <div class="visit-card glass-card">
+            <div class="visit-card__row">
+              <div class="visit-card__icon">📍</div>
+              <div>
+                <div class="visit-card__label">Address</div>
+                <div class="visit-card__text">
+                  Balintawak St, Old Albay District, Legazpi City, 4500 Albay
+                </div>
+              </div>
+            </div>
+            <div class="visit-card__row">
+              <div class="visit-card__icon">📞</div>
+              <div>
+                <div class="visit-card__label">Phone</div>
+                <div class="visit-card__text">0917 700 3931</div>
+              </div>
+            </div>
+            <div class="visit-card__row">
+              <div class="visit-card__icon">🕘</div>
+              <div>
+                <div class="visit-card__label">Today</div>
+                <div class="visit-card__text">Open · Closes 9 PM</div>
+              </div>
+            </div>
+            <div class="visit-card__row">
+              <div class="visit-card__icon">#</div>
+              <div>
+                <div class="visit-card__label">Plus Code</div>
+                <div class="visit-card__text">4PRM+5W Legazpi City, Albay</div>
+              </div>
+            </div>
+            <div class="visit-card__actions">
+              <a
+                class="btn btn--primary"
+                href="https://www.google.com/maps/dir/?api=1&destination=Ground+Zero+Vape+Shop+Albay,Balintawak+St,Old+Albay+District,Legazpi+City,Albay"
+                target="_blank"
+                rel="noopener"
+                >Get Directions</a
+              >
+              <a class="btn btn--glass" href="tel:+639177003931">Call Shop</a>
+            </div>
+            <p class="visit-card__notice">
+              Vapor products are intended for existing adult smokers. Ground
+              Zero sells to customers of legal smoking age only — valid ID may
+              be requested in-store.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img
+            class="footer__brand-logo"
+            src="logo.jpg"
+            alt="Ground Zero Vape Shop logo"
+          />Ground<span>Zero</span>
+        </div>
+        <div class="footer__meta">
+          Balintawak St, Old Albay District, Legazpi City · 0917 700 3931
+        </div>
+        <div class="footer__meta">© 2026 Ground Zero Vape Shop</div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
